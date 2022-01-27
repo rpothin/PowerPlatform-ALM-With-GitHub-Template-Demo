@@ -157,6 +157,13 @@ jobs:
             pac canvas unpack --msapp $_.FullName --sources $unpackedPath
             del $_.FullName
         }
+<<<<<<< HEAD
+=======
+
+        $outFolderFullPath = $GITHUB_WORKSPACE + $outFolder
+
+        Remove-Item -Path $outFolderFullPath -Recurse
+>>>>>>> a231c11 (bug_156 - Folder full path for Remove-Item)
       shell: pwsh
 
     # Delete out folder with solution exported in zip format
