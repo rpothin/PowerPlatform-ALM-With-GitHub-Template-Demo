@@ -6,7 +6,10 @@
     "IsSampleData": false,
     "IsWritable": true,
     "LogicalName": "systemuser",
+<<<<<<< HEAD
     "MaxGetRowsCount": 500,
+=======
+>>>>>>> 8d0f4dc (Update of PowerPlatformALMWithGitHub solution - Run 5 (#3))
     "Name": "Users",
     "NativeCDSDataSourceInfoNameMapping": {
       "accessmode": "Access Mode",
