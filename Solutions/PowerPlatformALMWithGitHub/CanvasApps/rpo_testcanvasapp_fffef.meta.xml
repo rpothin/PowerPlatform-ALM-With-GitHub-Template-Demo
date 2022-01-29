@@ -2,22 +2,29 @@
 <CanvasApp xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>rpo_testcanvasapp_fffef</Name>
 <<<<<<< HEAD
+<<<<<<< HEAD
   <AppVersion>2022-01-31T03:24:14Z</AppVersion>
   <Status>Ready</Status>
   <CreatedByClientVersion>3.22013.7.0</CreatedByClientVersion>
   <MinClientVersion>3.22013.7.0</MinClientVersion>
   <Tags>{"primaryDeviceWidth":"640","primaryDeviceHeight":"1136","sienaVersion":"c817d2c5-4d76-4542-b381-5ff0caaa146e","deviceCapabilities":"","supportsPortrait":"true","supportsLandscape":"true","primaryFormFactor":"Phone","publisherVersion":"3.22013.7","minimumRequiredApiVersion":"2.2.0","hasComponent":"false","hasUnlockedComponent":"false","isUnifiedRootApp":"false"}</Tags>
 =======
+=======
+>>>>>>> 4783813 (Update of PowerPlatformALMWithGitHub solution - Run 5 (#3))
   <AppVersion>2022-01-27T13:55:20Z</AppVersion>
   <Status>Ready</Status>
   <CreatedByClientVersion>3.22013.7.0</CreatedByClientVersion>
   <MinClientVersion>3.22013.7.0</MinClientVersion>
   <Tags>{"primaryDeviceWidth":"640","primaryDeviceHeight":"1136","sienaVersion":"7551db40-7fd2-48ac-a4af-8aa76e4ae9f1","deviceCapabilities":"","supportsPortrait":"true","supportsLandscape":"true","primaryFormFactor":"Phone","publisherVersion":"3.22013.7","minimumRequiredApiVersion":"2.2.0","hasComponent":"false","hasUnlockedComponent":"false","isUnifiedRootApp":"false"}</Tags>
+<<<<<<< HEAD
 >>>>>>> 8d0f4dc (Update of PowerPlatformALMWithGitHub solution - Run 5 (#3))
+=======
+>>>>>>> 4783813 (Update of PowerPlatformALMWithGitHub solution - Run 5 (#3))
   <IsCdsUpgraded>0</IsCdsUpgraded>
   <GalleryItemId xsi:nil="true"></GalleryItemId>
   <BackgroundColor>rgba(0, 121, 187, 1)</BackgroundColor>
   <DisplayName>Test Canvas App</DisplayName>
+<<<<<<< HEAD
 <<<<<<< HEAD
   <Description xsi:nil="true"></Description>
   <CommitMessage xsi:nil="true"></CommitMessage>
@@ -25,10 +32,15 @@
   <Description></Description>
   <CommitMessage></CommitMessage>
 >>>>>>> 8d0f4dc (Update of PowerPlatformALMWithGitHub solution - Run 5 (#3))
+=======
+  <Description></Description>
+  <CommitMessage></CommitMessage>
+>>>>>>> 4783813 (Update of PowerPlatformALMWithGitHub solution - Run 5 (#3))
   <Publisher></Publisher>
   <AuthorizationReferences>[]</AuthorizationReferences>
   <ConnectionReferences>{}</ConnectionReferences>
   <DatabaseReferences>{"default.cds":{"databaseDetails":{"referenceType":"Environmental","environmentName":"default.cds","overrideValues":{"status":"NotSpecified"}},"dataSources":{"Tests":{"entitySetName":"rpo_tests","logicalName":"rpo_test"},"Users":{"entitySetName":"systemusers","logicalName":"systemuser"}}}}</DatabaseReferences>
+<<<<<<< HEAD
 <<<<<<< HEAD
   <AppComponents>[]</AppComponents>
   <AppComponentDependencies>[]</AppComponentDependencies>
@@ -39,12 +51,17 @@
   <IntroducedVersion>1.0</IntroducedVersion>
   <CdsDependencies>{"cdsdependencies":[{"logicalname":"rpo_test","componenttype":1},{"logicalname":"systemuser","componenttype":1}]}</CdsDependencies>
 =======
+=======
+>>>>>>> 4783813 (Update of PowerPlatformALMWithGitHub solution - Run 5 (#3))
   <CanvasAppType>0</CanvasAppType>
   <BypassConsent>0</BypassConsent>
   <EmbeddedApp xsi:nil="true"></EmbeddedApp>
   <IntroducedVersion>1.0</IntroducedVersion>
   <CdsDependencies>{"cdsdependencies":[{"componenttype":1,"logicalname":"rpo_test"},{"componenttype":1,"logicalname":"systemuser"}]}</CdsDependencies>
+<<<<<<< HEAD
 >>>>>>> 8d0f4dc (Update of PowerPlatformALMWithGitHub solution - Run 5 (#3))
+=======
+>>>>>>> 4783813 (Update of PowerPlatformALMWithGitHub solution - Run 5 (#3))
   <IsCustomizable>1</IsCustomizable>
   <BackgroundImageUri>/CanvasApps/rpo_testcanvasapp_fffef_BackgroundImageUri</BackgroundImageUri>
   <DocumentUri>/CanvasApps/rpo_testcanvasapp_fffef_DocumentUri.msapp</DocumentUri>
