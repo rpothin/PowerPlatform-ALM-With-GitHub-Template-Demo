@@ -84,7 +84,11 @@
     LblAppName1 As label:
         Height: =88
         Size: =27
+<<<<<<< HEAD
         Text: ="Demo app 0130"
+=======
+        Text: ="[Title]"
+>>>>>>> 8d0f4dc (Update of PowerPlatformALMWithGitHub solution - Run 5 (#3))
         Width: =Parent.Width - LblAppName1.X - IconSortUpDown1.Width - IconNewItem1.Width - IconRefresh1.Width
         Wrap: =false
         X: =20
