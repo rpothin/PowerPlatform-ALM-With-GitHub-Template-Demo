@@ -2,6 +2,7 @@
   "ComponentIndexes": {},
   "ControlUniqueIds": {
     "App": 1,
+<<<<<<< HEAD
     "Body1": 16,
     "BrowseGallery1": 11,
     "galleryTemplate1": 12,
@@ -21,6 +22,27 @@
   },
   "FunctionParamsInvariantScripts": {},
   "HeaderLastSavedDateTimeUTC": "01/31/2022 03:24:12",
+=======
+    "Body1": 26,
+    "BrowseGallery1": 13,
+    "galleryTemplate1": 14,
+    "IconNewItem1": 9,
+    "IconRefresh1": 7,
+    "IconSortUpDown1": 8,
+    "LblAppName1": 6,
+    "NextArrow3": 27,
+    "Rectangle11": 12,
+    "RectQuickActionBar1": 5,
+    "Screen_Gallery_Tests": 4,
+    "SearchIcon1": 11,
+    "Separator3": 28,
+    "Subtitle3": 25,
+    "TextSearchBox1": 10,
+    "Title3": 24
+  },
+  "FunctionParamsInvariantScripts": {},
+  "HeaderLastSavedDateTimeUTC": "01/27/2022 04:12:25",
+>>>>>>> 8d0f4dc (Update of PowerPlatformALMWithGitHub solution - Run 5 (#3))
   "LocalDatabaseReferencesAsEmpty": false,
   "LocalResourceFileNames": {},
   "LocalResourceRootPaths": {},
@@ -93,6 +115,7 @@
   },
   "TemplateVersions": {},
   "VolatileProperties": {
+<<<<<<< HEAD
     "AnalysisLoadTime": 0.20406079999999999,
     "ControlCount": {
       "gallery": 1,
@@ -104,6 +127,10 @@
       "text": 1
     },
     "DeserializationLoadTime": 1.5050697,
+=======
+    "AnalysisLoadTime": 0.021223599999999999,
+    "ControlCount": {},
+>>>>>>> 8d0f4dc (Update of PowerPlatformALMWithGitHub solution - Run 5 (#3))
     "ErrorCount": 0
   }
 }
