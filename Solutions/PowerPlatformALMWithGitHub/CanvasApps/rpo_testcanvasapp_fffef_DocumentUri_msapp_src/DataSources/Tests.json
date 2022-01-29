@@ -7,9 +7,12 @@
     "IsWritable": true,
     "LogicalName": "rpo_test",
 <<<<<<< HEAD
+<<<<<<< HEAD
     "MaxGetRowsCount": 500,
 =======
 >>>>>>> 8d0f4dc (Update of PowerPlatformALMWithGitHub solution - Run 5 (#3))
+=======
+>>>>>>> 4783813 (Update of PowerPlatformALMWithGitHub solution - Run 5 (#3))
     "Name": "Tests",
     "NativeCDSDataSourceInfoNameMapping": {
       "_ownerid_value": "Owner",

@@ -12,12 +12,17 @@
   <AsyncAutodelete>0</AsyncAutodelete>
   <SyncWorkflowLogOnFailure>0</SyncWorkflowLogOnFailure>
 <<<<<<< HEAD
+<<<<<<< HEAD
   <StateCode>0</StateCode>
   <StatusCode>1</StatusCode>
 =======
   <StateCode>1</StateCode>
   <StatusCode>2</StatusCode>
 >>>>>>> 8d0f4dc (Update of PowerPlatformALMWithGitHub solution - Run 5 (#3))
+=======
+  <StateCode>1</StateCode>
+  <StatusCode>2</StatusCode>
+>>>>>>> 4783813 (Update of PowerPlatformALMWithGitHub solution - Run 5 (#3))
   <RunAs>1</RunAs>
   <IsTransacted>1</IsTransacted>
   <IntroducedVersion>1.0.0</IntroducedVersion>
