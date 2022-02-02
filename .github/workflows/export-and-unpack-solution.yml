@@ -89,11 +89,19 @@ jobs:
 
         nuget install $nugetPackage -Version $nugetPackageVersion -OutputDirectory $outFolder
         
+<<<<<<< HEAD
         $pacNugetFolder = Get-ChildItem $outFolder | Where-Object {$_.Name -match $nugetPackage + "."}
 
         $pacPath = $pacNugetFolder.FullName + "/tools"
 
         echo "POWERAPPS_CLI_PATH=$pacPath" >> $Env:GITHUB_ENV
+=======
+        $pacNugetFolder = Get-ChildItem ${{ env.PAC_CLI_FOLDER_PATH }} | Where-Object {$_.Name -match $nugetPackage + "."}
+
+        $pacPath = $pacNugetFolder.FullName + "/tools"
+
+        echo "POWERAPPS_CLI_PATH=$outFolder" >> $Env:GITHUB_ENV
+>>>>>>> bedc9e5 (#161 - Initialization of the generation of the deployment settings file on solution export)
       shell: pwsh
 
     # Generate deployment settings template file from packed solution using PAC CLI
