@@ -330,8 +330,7 @@ jobs:
         skip-dependency-check: false
         run-asynchronously: true
         max-async-wait-time: 10
-        use-deployment-settings-file: true
-        deployment-settings-file: Configuration/${{ env.solution_name }}/DeploymentSettings_development.json
+        use-deployment-settings-file: false
 
     # ---------- Job for comment to issue ----------
     # Add "Solution imported" comment to the issue
