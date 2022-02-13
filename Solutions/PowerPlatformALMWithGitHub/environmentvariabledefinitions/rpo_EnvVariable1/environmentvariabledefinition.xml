@@ -1,0 +1,10 @@
+<environmentvariabledefinition schemaname="rpo_EnvVariable1">
+  <displayname default="Env Variable 1">
+    <label description="Env Variable 1" languagecode="1033" />
+  </displayname>
+  <introducedversion>1.0.2022021325</introducedversion>
+  <iscustomizable>1</iscustomizable>
+  <isrequired>0</isrequired>
+  <secretstore>0</secretstore>
+  <type>100000000</type>
+</environmentvariabledefinition>
