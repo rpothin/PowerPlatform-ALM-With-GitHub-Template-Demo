@@ -1,6 +1,10 @@
 {
   "EnvironmentVariables": [
     {
+      "SchemaName": "rpo_EnvVariable1",
+      "Value": ""
+    },
+    {
       "SchemaName": "rpo_Test",
       "Value": ""
     }
