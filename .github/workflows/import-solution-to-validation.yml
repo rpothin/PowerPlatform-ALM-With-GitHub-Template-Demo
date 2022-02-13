@@ -244,10 +244,6 @@ jobs:
         use-deployment-settings-file: true
         deployment-settings-file: Configurations/${{ env.solution_name }}/DeploymentSettings_validation.json
 
-    # Action used to checkout the repository
-    #   Community action: https://github.com/actions/checkout
-    - uses: actions/checkout@v2
-
     # Complementary steps after solution import
     #   - Turn on cloud flows
     #   - Share canvas apps to Azure AD groups
