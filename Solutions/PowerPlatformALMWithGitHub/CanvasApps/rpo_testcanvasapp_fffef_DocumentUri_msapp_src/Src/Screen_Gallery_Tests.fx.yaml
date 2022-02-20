@@ -84,7 +84,7 @@
     LblAppName1 As label:
         Height: =88
         Size: =27
-        Text: ="Test application"
+        Text: ="Test application!"
         Width: =Parent.Width - LblAppName1.X - IconSortUpDown1.Width - IconNewItem1.Width - IconRefresh1.Width
         Wrap: =false
         X: =20
