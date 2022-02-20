@@ -6,6 +6,7 @@
     "IsSampleData": false,
     "IsWritable": true,
     "LogicalName": "rpo_test",
+    "MaxGetRowsCount": 500,
     "Name": "Tests",
     "NativeCDSDataSourceInfoNameMapping": {
       "_ownerid_value": "Owner",
@@ -20,6 +21,7 @@
       "owningbusinessunit": "Owning Business Unit",
       "owningteam": "Owning Team",
       "owninguser": "Owning User",
+      "rpo_category": "Category",
       "rpo_name": "Name",
       "rpo_test_AsyncOperations": "System Jobs",
       "rpo_test_BulkDeleteFailures": "Bulk Delete Failures",
@@ -52,6 +54,32 @@
       "9895d01b-f218-4a27-9bd4-660987b29c40": "Test Lookup View",
       "fac2f878-e161-4313-b496-117a99fccd0f": "Test Advanced Find View"
     }
+  },
+  {
+    "DisplayName": "Category",
+    "Name": "connectionrole_category",
+    "OptionSetInfoNameMapping": {
+      "1": "Business",
+      "1000": "Stakeholder",
+      "1001": "Sales Team",
+      "1002": "Service",
+      "2": "Family",
+      "3": "Social",
+      "4": "Sales",
+      "5": "Other"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": true,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "rpo_category",
+        "OptionSetReferenceEntityName": "Tests"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "rpo_category",
+    "RelatedEntityName": "Tests",
+    "Type": "OptionSetInfo"
   },
   {
     "DisplayName": "Status (Tests)",
