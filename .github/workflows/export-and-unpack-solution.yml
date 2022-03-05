@@ -115,9 +115,13 @@ jobs:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2b87c3e (#161 - Rollback previous change + correction on get pac cli path)
         echo "POWERAPPS_CLI_PATH=$outFolder" >> $Env:GITHUB_ENV
+=======
+        echo "POWERAPPS_CLI_PATH=$pacPath" >> $Env:GITHUB_ENV
+>>>>>>> 8819f91 (#161 - Rollback previous change + correction on get pac cli path)
       shell: pwsh
 
     # Generate deployment settings template file from packed solution using PAC CLI
