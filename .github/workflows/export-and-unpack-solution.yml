@@ -82,8 +82,8 @@ jobs:
         (Get-Content $file) -replace $regex, '<Version>1.0.0</Version>' | Set-Content $file
       shell: pwsh
     
-    # "Microsoft.PowerApps.CLI" setup
-    - name: PowerApps CLI setup
+    # Generate deployment settings template file from packed solution using PAC CLI
+    - name: Generate deployment settings file
       run: |
         $nugetPackage = "Microsoft.PowerApps.CLI"
         $nugetPackageVersion = "${{ steps.get-configurations.outputs.pac-cli-version }}"
@@ -112,6 +112,7 @@ jobs:
 
         $pacPath = $pacNugetFolder.FullName + "/tools"
 
+<<<<<<< HEAD
         echo "POWERAPPS_CLI_PATH=$outFolder" >> $Env:GITHUB_ENV
 >>>>>>> bedc9e5 (#161 - Initialization of the generation of the deployment settings file on solution export)
 >>>>>>> 567f7d2 (#161 - Initialization of the generation of the deployment settings file on solution export)
@@ -122,10 +123,16 @@ jobs:
       run: |
         $env:PATH = $env:PATH + ";" + "${{ env.POWERAPPS_CLI_PATH }}"
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         $env:PATH = $env:PATH + ";" + "$pacPath"
 =======
 >>>>>>> 2b87c3e (#161 - Rollback previous change + correction on get pac cli path)
+=======
+=======
+        $env:PATH = $env:PATH + ";" + "$pacPath"
+>>>>>>> f825cdc (#161 - Add explicit PowerApps CLI nugget package install)
+>>>>>>> ec7fe52 (#161 - Add explicit PowerApps CLI nugget package install)
 
         pac solution help
 >>>>>>> 3d5f963 (#161 - Add explicit PowerApps CLI nugget package install)
@@ -138,11 +145,21 @@ jobs:
     #   Source: https://github.com/microsoft/coe-alm-accelerator-templates/blob/main/Pipelines/Templates/export-Solution.yml
     - name: Unpack canvas app source files
       run: |
+        $nugetPackage = "Microsoft.PowerApps.CLI"
+        $nugetPackageVersion = "${{ secrets.PAC_CLI_VERSION }}" # 1.8.6
+        $outFolder = "pac"
+
+        nuget install $nugetPackage -Version $nugetPackageVersion -OutputDirectory $outFolder
+        
+        $pacNugetFolder = Get-ChildItem ${{ env.PAC_CLI_FOLDER_PATH }} | Where-Object {$_.Name -match $nugetPackage + "."}
+
+        $pacPath = $pacNugetFolder.FullName + "/tools"
+        
         Get-ChildItem -Path "Solutions/${{ github.event.inputs.solution_name }}" -Recurse -Filter *.msapp | 
         ForEach-Object {
             $unpackedPath = $_.FullName.Replace(".msapp", "_msapp_src")
             
-            $env:PATH = $env:PATH + ";" + "${{ env.POWERAPPS_CLI_PATH }}"
+            $env:PATH = $env:PATH + ";" + "$pacPath"
 
             pac canvas unpack --msapp $_.FullName --sources $unpackedPath
             del $_.FullName
