@@ -113,77 +113,13 @@ jobs:
 
         $pacPath = $pacNugetFolder.FullName + "/tools"
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 2b87c3e (#161 - Rollback previous change + correction on get pac cli path)
-        echo "POWERAPPS_CLI_PATH=$outFolder" >> $Env:GITHUB_ENV
-=======
         echo "POWERAPPS_CLI_PATH=$pacPath" >> $Env:GITHUB_ENV
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 8819f91 (#161 - Rollback previous change + correction on get pac cli path)
-=======
-=======
-        $pacNugetFolder = Get-ChildItem ${{ env.PAC_CLI_FOLDER_PATH }} | Where-Object {$_.Name -match $nugetPackage + "."}
-
-        $pacPath = $pacNugetFolder.FullName + "/tools"
-
-<<<<<<< HEAD
-        echo "POWERAPPS_CLI_PATH=$outFolder" >> $Env:GITHUB_ENV
->>>>>>> bedc9e5 (#161 - Initialization of the generation of the deployment settings file on solution export)
-<<<<<<< HEAD
->>>>>>> 567f7d2 (#161 - Initialization of the generation of the deployment settings file on solution export)
-=======
-=======
-        $pacNugetFolder = Get-ChildItem $outFolder | Where-Object {$_.Name -match $nugetPackage + "."}
-
-        $pacPath = $pacNugetFolder.FullName + "/tools"
-
-<<<<<<< HEAD
-        echo "POWERAPPS_CLI_PATH=$outFolder" >> $Env:GITHUB_ENV
->>>>>>> 04c63b9 (#161 - Rollback previous change + correction on get pac cli path)
-<<<<<<< HEAD
->>>>>>> a5f2290 (#161 - Rollback previous change + correction on get pac cli path)
-=======
-=======
-        echo "POWERAPPS_CLI_PATH=$pacPath" >> $Env:GITHUB_ENV
->>>>>>> db5b343 (#161 - Rollback previous change + correction on get pac cli path)
->>>>>>> 1912266 (#161 - Rollback previous change + correction on get pac cli path)
-=======
->>>>>>> 315f2dc (Correction of strange merge issues)
       shell: pwsh
 
     # Generate deployment settings template file from packed solution using PAC CLI
     - name: Generate deployment settings file
       run: |
         $env:PATH = $env:PATH + ";" + "${{ env.POWERAPPS_CLI_PATH }}"
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-        $env:PATH = $env:PATH + ";" + "$pacPath"
-=======
->>>>>>> 2b87c3e (#161 - Rollback previous change + correction on get pac cli path)
-=======
-=======
-        $env:PATH = $env:PATH + ";" + "$pacPath"
->>>>>>> f825cdc (#161 - Add explicit PowerApps CLI nugget package install)
->>>>>>> ec7fe52 (#161 - Add explicit PowerApps CLI nugget package install)
-=======
-=======
-        $env:PATH = $env:PATH + ";" + "$pacPath"
->>>>>>> f825cdc (#161 - Add explicit PowerApps CLI nugget package install)
-=======
->>>>>>> 04c63b9 (#161 - Rollback previous change + correction on get pac cli path)
->>>>>>> a5f2290 (#161 - Rollback previous change + correction on get pac cli path)
-=======
->>>>>>> 315f2dc (Correction of strange merge issues)
-
-        pac solution help
->>>>>>> 3d5f963 (#161 - Add explicit PowerApps CLI nugget package install)
         
         pac solution create-settings --solution-zip out/exported/${{ github.event.inputs.solution_name }}.zip --settings-file Configurations/${{ github.event.inputs.solution_name }}/${{ steps.get-configurations.outputs.deployment-settings-file-name-base }}Template.json
       shell: pwsh
