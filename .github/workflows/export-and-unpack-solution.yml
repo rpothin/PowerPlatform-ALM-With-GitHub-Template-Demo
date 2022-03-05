@@ -91,8 +91,6 @@ jobs:
 
         nuget install $nugetPackage -Version $nugetPackageVersion -OutputDirectory $outFolder
         
-<<<<<<< HEAD
-<<<<<<< HEAD
         $pacNugetFolder = Get-ChildItem $outFolder | Where-Object {$_.Name -match $nugetPackage + "."}
 
         $pacPath = $pacNugetFolder.FullName + "/tools"
@@ -105,6 +103,7 @@ jobs:
         echo "POWERAPPS_CLI_PATH=$outFolder" >> $Env:GITHUB_ENV
 =======
         echo "POWERAPPS_CLI_PATH=$pacPath" >> $Env:GITHUB_ENV
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 8819f91 (#161 - Rollback previous change + correction on get pac cli path)
 =======
@@ -134,12 +133,15 @@ jobs:
         echo "POWERAPPS_CLI_PATH=$pacPath" >> $Env:GITHUB_ENV
 >>>>>>> db5b343 (#161 - Rollback previous change + correction on get pac cli path)
 >>>>>>> 1912266 (#161 - Rollback previous change + correction on get pac cli path)
+=======
+>>>>>>> 315f2dc (Correction of strange merge issues)
       shell: pwsh
 
     # Generate deployment settings template file from packed solution using PAC CLI
     - name: Generate deployment settings file
       run: |
         $env:PATH = $env:PATH + ";" + "${{ env.POWERAPPS_CLI_PATH }}"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -159,6 +161,8 @@ jobs:
 =======
 >>>>>>> 04c63b9 (#161 - Rollback previous change + correction on get pac cli path)
 >>>>>>> a5f2290 (#161 - Rollback previous change + correction on get pac cli path)
+=======
+>>>>>>> 315f2dc (Correction of strange merge issues)
 
         pac solution help
 >>>>>>> 3d5f963 (#161 - Add explicit PowerApps CLI nugget package install)
@@ -180,16 +184,6 @@ jobs:
             pac canvas unpack --msapp $_.FullName --sources $unpackedPath
             del $_.FullName
         }
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
-        $outFolderFullPath = $GITHUB_WORKSPACE + $outFolder
-
-        Remove-Item -Path $outFolderFullPath -Recurse
->>>>>>> a231c11 (bug_156 - Folder full path for Remove-Item)
-=======
->>>>>>> 3a5933e (bug_156 - Remove Remove-Item action for the PAC CLI folder)
       shell: pwsh
 
     # TEMPORARY until out-of-the-box unpack solution action supports formatting json files
