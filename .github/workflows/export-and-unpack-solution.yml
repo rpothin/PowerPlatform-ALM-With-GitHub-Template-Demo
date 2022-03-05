@@ -145,9 +145,16 @@ jobs:
 
         $pacPath = $pacNugetFolder.FullName + "/tools"
 
+<<<<<<< HEAD
         echo "POWERAPPS_CLI_PATH=$outFolder" >> $Env:GITHUB_ENV
 >>>>>>> 04c63b9 (#161 - Rollback previous change + correction on get pac cli path)
+<<<<<<< HEAD
 >>>>>>> a5f2290 (#161 - Rollback previous change + correction on get pac cli path)
+=======
+=======
+        echo "POWERAPPS_CLI_PATH=$pacPath" >> $Env:GITHUB_ENV
+>>>>>>> db5b343 (#161 - Rollback previous change + correction on get pac cli path)
+>>>>>>> 1912266 (#161 - Rollback previous change + correction on get pac cli path)
       shell: pwsh
 
     # Generate deployment settings template file from packed solution using PAC CLI
