@@ -1,0 +1,15 @@
+{
+  "EnvironmentVariables": [
+    {
+      "SchemaName": "rpo_Test",
+      "Value": "{ \"name\":\"John\", \"age\":30, \"cars\":[\"Ford\", \"BMW\", \"Fiat\"] }"
+    }
+  ],
+  "ConnectionReferences": [
+    {
+      "LogicalName": "rpo_sharedcommondataserviceforapps_00036",
+      "ConnectionId": "a83a33da9f314fde80bc2d24e35dc90b",
+      "ConnectorId": "/providers/Microsoft.PowerApps/apis/shared_commondataserviceforapps"
+    }
+  ]
+}
