@@ -20,7 +20,7 @@
     "Title3": 13
   },
   "FunctionParamsInvariantScripts": {},
-  "HeaderLastSavedDateTimeUTC": "03/09/2022 03:46:04",
+  "HeaderLastSavedDateTimeUTC": "03/09/2022 04:46:37",
   "LocalDatabaseReferencesAsEmpty": false,
   "LocalResourceFileNames": {},
   "LocalResourceRootPaths": {},
@@ -94,7 +94,7 @@
   },
   "TemplateVersions": {},
   "VolatileProperties": {
-    "AnalysisLoadTime": 0.24393529999999999,
+    "AnalysisLoadTime": 0.20869550000000001,
     "ControlCount": {
       "gallery": 1,
       "galleryTemplate": 1,
@@ -104,7 +104,7 @@
       "screen": 1,
       "text": 1
     },
-    "DeserializationLoadTime": 2.9620207000000001,
+    "DeserializationLoadTime": 1.3118650999999999,
     "ErrorCount": 0
   }
 }
