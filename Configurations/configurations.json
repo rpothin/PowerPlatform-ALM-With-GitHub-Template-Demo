@@ -29,6 +29,6 @@
         "outputDirectory": "solutionCheckerResults/",
         "geography": "Canada",
         "maximumNumberHighSeverityPoints": 0,
-        "maximumNumberMediumSeverityPoints": 5
+        "maximumNumberMediumSeverityPoints": 2
     }
 }
