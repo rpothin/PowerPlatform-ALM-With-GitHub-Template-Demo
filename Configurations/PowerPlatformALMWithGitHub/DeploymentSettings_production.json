@@ -5,6 +5,10 @@
       "Value": "Hello 👋🏼"
     },
     {
+      "SchemaName": "rpo_HelloWorld",
+      "Value": "Hello production!"
+    },
+    {
       "SchemaName": "rpo_Test",
       "Value": "{ \"name\":\"John\", \"age\":30, \"cars\":[\"Ford\", \"BMW\", \"Fiat\"] }"
     }
