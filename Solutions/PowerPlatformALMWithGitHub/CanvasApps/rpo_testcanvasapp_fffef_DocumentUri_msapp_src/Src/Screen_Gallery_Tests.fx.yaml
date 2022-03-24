@@ -6,7 +6,7 @@
         ZIndex: =1
 
     "BrowseGallery1 As gallery.'BrowseLayout_Vertical_ThreeTextVariant_ver4.0'":
-        Height: =Parent.Height - BrowseGallery1.Y
+        Height: =690
         Items: =Filter(Tests, 'Tests (Views)'.'Active Tests')
         Layout: =Layout.Vertical
         ShowScrollbar: =false
@@ -167,4 +167,13 @@
         Width: =Parent.Width
         Y: =TextSearchBox1.Y + TextSearchBox1.Height
         ZIndex: =8
+
+    Button1 As button:
+        Height: =70
+        Size: =24
+        Text: ="Go GitHub!"
+        Width: =280
+        X: =170
+        Y: =998
+        ZIndex: =9
 
