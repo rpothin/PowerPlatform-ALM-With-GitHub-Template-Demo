@@ -1,0 +1,10 @@
+<environmentvariabledefinition schemaname="rpo_HelloWorld">
+  <displayname default="Hello World!">
+    <label description="Hello World!" languagecode="1033" />
+  </displayname>
+  <introducedversion>1.0.2022032424</introducedversion>
+  <iscustomizable>1</iscustomizable>
+  <isrequired>0</isrequired>
+  <secretstore>0</secretstore>
+  <type>100000000</type>
+</environmentvariabledefinition>
