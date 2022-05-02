@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <CanvasApp xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>rpo_testcanvasapp_fffef</Name>
-  <AppVersion>2022-03-24T02:23:13Z</AppVersion>
+  <AppVersion>2022-05-02T03:16:58Z</AppVersion>
   <Status>Ready</Status>
-  <CreatedByClientVersion>3.22022.23.0</CreatedByClientVersion>
-  <MinClientVersion>3.22022.23.0</MinClientVersion>
-  <Tags>{"primaryDeviceWidth":"640","primaryDeviceHeight":"1136","sienaVersion":"b5bf9210-260b-4afa-9f38-4701dc3578e1","deviceCapabilities":"","supportsPortrait":"true","supportsLandscape":"true","primaryFormFactor":"Phone","publisherVersion":"3.22022.23","minimumRequiredApiVersion":"2.2.0","hasComponent":"false","hasUnlockedComponent":"false","isUnifiedRootApp":"false"}</Tags>
+  <CreatedByClientVersion>3.22043.14.0</CreatedByClientVersion>
+  <MinClientVersion>3.22043.14.0</MinClientVersion>
+  <Tags>{"primaryDeviceWidth":"640","primaryDeviceHeight":"1136","sienaVersion":"20220502T031204Z-3.22022.23.0","deviceCapabilities":"","supportsPortrait":"true","supportsLandscape":"true","primaryFormFactor":"Phone","publisherVersion":"3.22043.14","minimumRequiredApiVersion":"2.2.0","hasComponent":"false","hasUnlockedComponent":"false","isUnifiedRootApp":"false"}</Tags>
   <IsCdsUpgraded>0</IsCdsUpgraded>
   <GalleryItemId xsi:nil="true"></GalleryItemId>
   <BackgroundColor>rgba(0, 121, 187, 1)</BackgroundColor>
