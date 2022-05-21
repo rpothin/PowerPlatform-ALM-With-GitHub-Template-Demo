@@ -36,7 +36,7 @@
       "enablepcfmoderndatasets": true,
       "enablepowerautomatepane": false,
       "enablerowscopeonetonexpand": false,
-      "enablerpawarecomponentdependency": true,
+      "enablerpawarecomponentdependency": false,
       "enablerulespanel": false,
       "enablesaveloadcleardataonweb": false,
       "enhanceddelegation": true,
