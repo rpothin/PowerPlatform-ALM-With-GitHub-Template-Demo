@@ -32,7 +32,7 @@
   <span> · </span>
   <a href="https://github.com/rpothin/PowerPlatform-ALM-With-GitHub-Template/discussions/categories/q-a">Support Q&A</a>
 </h3>
-test
+
 ## 📢 What is the PowerPlatform-ALM-With-GitHub-Template project?
 
 It is a **GitHub repository** that can be easily used as a starting point to create your own repository for Power Platform / Dynamics 365 development.
