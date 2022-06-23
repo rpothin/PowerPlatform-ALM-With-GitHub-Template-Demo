@@ -21,7 +21,10 @@
     "Title3": 13
   },
   "FunctionParamsInvariantScripts": {},
+  "FunctionParamsInvariantScriptsOnInstances": {},
   "HeaderLastSavedDateTimeUTC": "06/18/2022 02:15:37",
+  "IsLegacyComponentAllowGlobalScopeCase": false,
+  "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": false,
   "LocalResourceFileNames": {},
   "LocalResourceRootPaths": {},
@@ -63,6 +66,7 @@
     "Users\\systemuser_setupuser": 3
   },
   "OrderGroupControls": {},
+  "OrderPcfTemplate": {},
   "OrderTemplate": {},
   "OrderXMLTemplate": {
     "button": 5,
@@ -95,6 +99,7 @@
   "ResourcesJsonIndices": {
     "Image-SampleImage": 0
   },
+  "RuleScreenIdWithoutScreen": {},
   "TemplateVersions": {},
   "VolatileProperties": {
     "AnalysisLoadTime": 0.2040814,
@@ -110,5 +115,6 @@
     },
     "DeserializationLoadTime": 3.9470512000000002,
     "ErrorCount": 0
-  }
+  },
+  "WasLocalDatabaseReferencesEmpty": false
 }
