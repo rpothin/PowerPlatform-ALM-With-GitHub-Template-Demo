@@ -1,7 +1,12 @@
-[
-    {
-        "canvasAppName": "rpo_testcanvasapp_fffef",
-        "groupName": "sg-raphael-test-canvasapp-access",
-        "roleName": "CanView"
+{
+    "canvasApps": {
+        "sharing": [
+            {
+                "canvasAppName": "rpo_testcanvasapp_fffef",
+                "groupName": "sg-raphael-test-canvasapp-access",
+                "roleName": "CanView"
+            }
+        ],
+        "instrumentationKey": "00000000-0000-0000-0000-000000000001"
     }
-]
+}
