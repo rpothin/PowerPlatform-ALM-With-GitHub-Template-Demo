@@ -1,0 +1,124 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "rpo_tests",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "rpo_test",
+    "MaxGetRowsCount": 500,
+    "Name": "Tests",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Owner",
+      "createdby": "Created By",
+      "createdon": "Created On",
+      "createdonbehalfby": "Created By (Delegate)",
+      "importsequencenumber": "Import Sequence Number",
+      "modifiedby": "Modified By",
+      "modifiedon": "Modified On",
+      "modifiedonbehalfby": "Modified By (Delegate)",
+      "overriddencreatedon": "Record Created On",
+      "owningbusinessunit": "Owning Business Unit",
+      "owningteam": "Owning Team",
+      "owninguser": "Owning User",
+      "rpo_category": "Category",
+      "rpo_name": "Name",
+      "rpo_test_AsyncOperations": "System Jobs",
+      "rpo_test_BulkDeleteFailures": "Bulk Delete Failures",
+      "rpo_test_DuplicateBaseRecord": "Duplicate Records (rpo_test_DuplicateBaseRecord)",
+      "rpo_test_DuplicateMatchingRecord": "Duplicate Records (rpo_test_DuplicateMatchingRecord)",
+      "rpo_test_MailboxTrackingFolders": "Mailbox Auto Tracking Folders",
+      "rpo_test_PrincipalObjectAttributeAccesses": "Field Sharing",
+      "rpo_test_ProcessSession": "Process Sessions",
+      "rpo_test_SyncErrors": "Sync Errors",
+      "rpo_testid": "Test",
+      "statecode": "Status",
+      "statuscode": "Status Reason",
+      "timezoneruleversionnumber": "Time Zone Rule Version Number",
+      "utcconversiontimezonecode": "UTC Conversion Time Zone Code",
+      "versionnumber": "Version Number"
+    },
+    "PreferredName": "Tests",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Tests (Views)",
+    "Name": "_rpo_test_views",
+    "RelatedEntityName": "Tests",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "290d4208-06a0-4acd-aa5f-7bd8568a22b9": "Test Associated View",
+      "61c89ab7-f15b-424c-8356-5174f8271fde": "Inactive Tests",
+      "8927a549-eeca-4f6d-9305-51662187191b": "Active Tests",
+      "9895d01b-f218-4a27-9bd4-660987b29c40": "Test Lookup View",
+      "fac2f878-e161-4313-b496-117a99fccd0f": "Test Advanced Find View"
+    }
+  },
+  {
+    "DisplayName": "Category",
+    "Name": "connectionrole_category",
+    "OptionSetInfoNameMapping": {
+      "1": "Business",
+      "1000": "Stakeholder",
+      "1001": "Sales Team",
+      "1002": "Service",
+      "2": "Family",
+      "3": "Social",
+      "4": "Sales",
+      "5": "Other"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": true,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "rpo_category",
+        "OptionSetReferenceEntityName": "Tests"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "rpo_category",
+    "RelatedEntityName": "Tests",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status (Tests)",
+    "Name": "rpo_test_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Active",
+      "1": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "Tests"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "Tests",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status Reason (Tests)",
+    "Name": "rpo_test_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Active",
+      "2": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "Tests"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "Tests",
+    "Type": "OptionSetInfo"
+  }
+]
