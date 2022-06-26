@@ -5,20 +5,25 @@
         "languageDisplayName": "English",
         "currencyName": "CAD",
         "developmentEnvironment": {
-            "displayNameBase": "xxx - ",
-            "domainNameBase": "xxx-",
+            "displayNameBase": "BAFC - Raphael - Dev - ",
+            "domainNameBase": "bafc-rpo-gh-dev-",
             "skuName": "Sandbox",
-            "developersAzureAdGroupName": "sg-xxx"
+            "developersAzureAdGroupName": "sg-roles-powerplatformadmin"
         },
         "buildEnvironment": {
-            "displayNameBase": "xxx - ",
-            "domainNameBase": "xxx-",
+            "displayNameBase": "BAFC - Raphael - Build - ",
+            "domainNameBase": "bafc-rpo-gh-build-",
             "skuName": "Sandbox"
         }
     },
     "developmentBranchNameBase": "work/",
+<<<<<<< HEAD
     "pacCliVersion": "1.16.6",
     "powerAppsMakerPortalBaseUrl": "https://make.powerapps.com/environments/",
+=======
+    "pacCliVersion": "1.10.4",
+    "powerAppsMakerPortalBaseUrl": "https://make.preview.powerapps.com/environments/",
+>>>>>>> aea3b39 (Update configurations.json for demonstration values)
     "deploymentSettingsFileNameBase": "DeploymentSettings",
     "customDeploymentSettingsFileNameBase": "CustomDeploymentSettings",
     "maximumTriesForCloudFlowsActivation": 3,
