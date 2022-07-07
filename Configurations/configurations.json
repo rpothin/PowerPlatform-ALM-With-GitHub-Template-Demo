@@ -8,7 +8,7 @@
             "displayNameBase": "BAFC - Raphael - Dev - ",
             "domainNameBase": "bafc-rpo-gh-dev-",
             "skuName": "Sandbox",
-            "developersAzureAdGroupName": "",
+            "developersAzureAdGroupName": "sg-roles-powerplatformadmin",
             "descriptionBase": ""
         },
         "buildEnvironment": {
