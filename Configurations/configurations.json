@@ -5,18 +5,18 @@
         "languageDisplayName": "English",
         "currencyName": "CAD",
         "developmentEnvironment": {
-            "displayNameBase": "xxx - ",
-            "domainNameBase": "xxx-",
+            "displayNameBase": "BAFC - Raphael - Dev - ",
+            "domainNameBase": "bafc-rpo-gh-dev-",
             "skuName": "Sandbox",
-            "developersAzureAdGroupName": "sg-xxx",
+            "developersAzureAdGroupName": "sg-roles-powerplatformadmin",
             "descriptionBase": "Environment for development on the following issue: "
         },
         "buildEnvironment": {
-            "displayNameBase": "xxx - ",
-            "domainNameBase": "xxx-",
+            "displayNameBase": "BAFC - Raphael - Build - ",
+            "domainNameBase": "bafc-rpo-gh-build-",
             "skuName": "Sandbox",
-            "azureAdGroupName": "sg-xxx",
-            "descriptionBase": "Environment for the following solution build: "
+            "azureAdGroupName": "sg-roles-powerplatformadmin",
+            "descriptionBase": "Development for the following build of solution: "
         }
     },
     "developmentBranchNameBase": "work/",
