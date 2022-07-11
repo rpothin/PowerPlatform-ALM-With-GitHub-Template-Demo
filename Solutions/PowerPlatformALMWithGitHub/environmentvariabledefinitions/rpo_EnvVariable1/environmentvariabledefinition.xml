@@ -1,4 +1,7 @@
 <environmentvariabledefinition schemaname="rpo_EnvVariable1">
+  <description default="Test files changed">
+    <label description="Test files changed" languagecode="1033" />
+  </description>
   <displayname default="Env Variable 1">
     <label description="Env Variable 1" languagecode="1033" />
   </displayname>
