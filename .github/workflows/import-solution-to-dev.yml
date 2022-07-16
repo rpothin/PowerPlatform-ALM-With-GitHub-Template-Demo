@@ -18,6 +18,7 @@ on:
         required: true
         options:
           - PowerPlatformALMWithGitHub
+          - PowerPlatformALMWithGitHub2
       solution_version:
         type: string
         description: 'Version considered for the solution to import'
