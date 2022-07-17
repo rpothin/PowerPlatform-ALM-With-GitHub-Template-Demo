@@ -6,4 +6,8 @@
       "value": "{ \"name\":\"John\", \"age\":30, \"cars\":[\"Ford\", \"BMW\", \"Fiat\"] }"
     }
   }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 9c5a7c9a (Dev/issue 12 (#13))
