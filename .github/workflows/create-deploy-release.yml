@@ -16,6 +16,7 @@ on:
         required: true
         options:
           - PowerPlatformALMWithGitHub
+          - PowerPlatformALMWithGitHub2
       solution-major-version:
         type: string
         description: 'Majors version of the solution to deploy (ex: 1)'
