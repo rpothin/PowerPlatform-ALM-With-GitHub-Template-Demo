@@ -18,6 +18,7 @@ on:
         required: true
         options:
           - PowerPlatformALMWithGitHub
+          - PowerPlatformALMWithGitHub2
 
 # Concurrency configuration for the current workflow - Keep only the latest workflow queued for the considered group and the considered issue number (input)
 concurrency:
